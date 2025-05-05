@@ -1,0 +1,33 @@
+.left-box {
+  background-color: #ffffff;
+  width: 50%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //transform: skewX(-10deg); // нахил
+  clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+  overflow: hidden;
+  //position: absolute;
+}
+
+.right-box {
+  background-color: #0B0B0B;
+  width: 50%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //transform: skewX(-10deg); // нахил
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+  //position: absolute;
+}
+
+.main-box {
+  //height: 1000px;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+
+}
